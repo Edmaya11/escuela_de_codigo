@@ -129,40 +129,43 @@
                         
 2. Declarar (número) int 
                         
-3. Mostar ("ingresa un número del 1 al 12 para mostar el mes al que corresponde")
+3. Mostar ("ingresa un número del 1 al 12 para mostrar el mes al que corresponde")
                         
 4. Asignar (número)
                         
 5. En caso de (número)  
               
-               1- mostrar ("Enero")  
+               1 mostrar ("Enero")  
   
-               2- mostrar ("Febrero")
+               2 mostrar ("Febrero")
   
-               3- mostrar ("Marzo")
+               3 mostrar ("Marzo")
                         
-               4- mostrar ("Abril") 
+               4 mostrar ("Abril") 
                         
-               5- mostrar ("Mayo")
+               5 mostrar ("Mayo")
                         
-               6- mostrar ("Junio")
+               6 mostrar ("Junio")
                         
-               7- mostrar ("Julio")
+               7 mostrar ("Julio")
                         
-               8- mostrar ("Agosto")
+               8 mostrar ("Agosto")
                         
-               9- mostrar ("Septiembre")
+               9 mostrar ("Septiembre")
                         
-               10- mostrar ("Octubre")
+               10 mostrar ("Octubre")
                         
-               11- mostrar ("Noviembre")
+               11 mostrar ("Noviembre")
                         
-               12- mostrar ("Diciembre")
+               12 mostrar ("Diciembre")
                         
                    mostrar ("Error")
                         
- 6. fin                       
+ 6. fin    
                         
+                        
+ ![image](https://user-images.githubusercontent.com/103066249/164527223-4720c747-783c-4ee0-9b13-fdc23340c500.png)
+                       
   
 * De un programa que permita al usuario elegir un candidato por el cual votar. Las posibilidades son: candidato A por el partido rojo, candidato B por el partido verde, candidato C por el partido azul. Según el candidato elegido (A, B ó C) se le debe imprimir el mensaje “Usted ha votado por el partido [color que corresponda al candidato elegido]”. Si el usuario ingresa una opción que no corresponde a ninguno de los candidatos disponibles, indicar “Opción errónea”.
 * Para un programa que almacene la cadena de caracteres para una contraseña y email, pregunte al usuario por la contraseña y email e imprima por pantalla si la contraseña y el email introducidos por el usuario coincide con los guardadados en las variables.
