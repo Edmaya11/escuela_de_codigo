@@ -28,3 +28,28 @@ Algoritmo tarea28abril
 	escribir "Acertaste el número para romper el ciclo"
 	
 FinAlgoritmo
+
+
+
+Algoritmo tarea28abril
+	num<-0
+	Repetir
+		Escribir "ingresa un número"
+		Leer num
+		Si num>0 y num<=999 Entonces
+			Si num>100 Entonces
+				Escribir "3 digitos"
+			SiNo
+				Si num>10 Entonces
+					Escribir "dos digitos"
+				SiNo
+					Escribir "un digito"
+				Fin Si
+			Fin Si
+		SiNo
+			Escribir "error"
+		Fin Si
+	Hasta Que num=0
+	Escribir "cierra ciclo"
+	
+FinAlgoritmo
