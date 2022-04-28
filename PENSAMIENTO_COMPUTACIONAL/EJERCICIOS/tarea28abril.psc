@@ -33,6 +33,39 @@ FinAlgoritmo
 
 Algoritmo tarea28abril
 	num<-0
+	
+	
+	
+
+Algoritmo tarea28abril
+	num<-0
+	i=5
+	Repetir
+		Escribir "ingresa un número"
+		Escribir "te quedan", i, "intentos"
+		Leer num
+		i<-i-1
+		Si num>0 y num<=999 Entonces
+			Si num>100 Entonces
+				Escribir "3 digitos"
+			SiNo
+				Si num>10 Entonces
+					Escribir "dos digitos"
+				SiNo
+					Escribir "un digito"
+				Fin Si
+			Fin Si
+		SiNo
+			Escribir "error"
+		Fin Si
+	Hasta Que num=0 o i=0
+	Escribir "fin"
+	
+FinAlgoritmo
+	
+	
+	
+	
 	Repetir
 		Escribir "ingresa un número"
 		Leer num
