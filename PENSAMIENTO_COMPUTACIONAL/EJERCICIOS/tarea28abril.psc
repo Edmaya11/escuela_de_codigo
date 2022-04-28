@@ -117,3 +117,57 @@ fin si
 	
 FinAlgoritmo
 
+
+
+Algoritmo maestrosolu
+	numsec<-azar (100)+1
+	num<-0
+	i<-10
+	Escribir "adivina el número"
+	leer num
+	Mientras num<>numsec y i>0 Hacer
+		i=i-1
+		si num>numsec Entonces
+			Escribir "El número es mayor"
+			sino escribir "El número es menor"
+			FinSi
+			Escribir "Te quedan ", i " intentos"
+			Escribir "Ingresa otro número del 0 al 99"
+			leer num
+	Fin Mientras
+	
+FinAlgoritmo
+
+Algoritmo maestrosolu
+	numsec<-azar (100)+1
+	num<-0
+	i<-3
+	Escribir "adivina el número"
+	leer num
+	si num<0 o num>99 Entonces
+		escribir "El número no está dentro del rango de 0 a 99"
+	FinSi
+	Mientras num<>numsec y i>1 Hacer
+		i=i-1
+		si num>numsec Entonces
+			Escribir "El número es mayor"
+			sino escribir "El número es menor"
+			FinSi
+			Escribir "Te quedan ", i " intentos"
+			Escribir "Ingresa otro número del 0 al 99"
+			leer num
+	Fin Mientras
+	si num=numsec
+		escribir "felicidades, le atinaste en ", i " intentos"
+	sino 
+		escribir "El número era: ", numsec
+	FinSi
+	
+FinAlgoritmo
+
+
+
+
+
+
+
