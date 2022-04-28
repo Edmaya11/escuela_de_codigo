@@ -86,3 +86,32 @@ FinAlgoritmo
 	Escribir "cierra ciclo"
 	
 FinAlgoritmo
+
+
+Algoritmo tarea28abril
+	num<-0
+	i=10
+	numganador=25
+	int=0
+	Repetir
+		Escribir "Para adivinar el número ingresa un número del 0 al 99"
+		Escribir "te quedan ", i, " intentos"
+		Leer num
+		i<-i-1
+		int<-int+1
+		Si num>=0 y num<=24 Entonces
+			escribir "El número que escribiste es más bajo"
+		sino 
+			si num>=26 y num<=99 Entonces
+				Escribir "El número es muy alto"
+			SiNo
+				si num<0 o num>99 Entonces
+					escribir "El número no está dentro del rango de 0 a 99"
+				FinSi
+			FinSi
+			
+fin si
+	Hasta Que num=25 o i=0
+	Escribir "Acertaste en " int " intentos"
+	
+FinAlgoritmo
