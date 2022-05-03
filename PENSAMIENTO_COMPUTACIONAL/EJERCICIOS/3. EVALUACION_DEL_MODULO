@@ -19,15 +19,7 @@ Algoritmo promedio
 		escribir "La nota que ingresaste no está dentro del rango válido de 1 a 7"
 	FinSi
 
-FinAlgoritmo
-
-
-
-
-
-
-
-
+FinAlgoritmo 
 
 Actividad 2. Programa, usando algoritmo de estructura repetitiva, lo siguiente:
 Diseña un algoritmo representándolo en Diagrama de Flujo y Pseudocódigo para obtener la edad promedio de un grupo de N alumnos.
